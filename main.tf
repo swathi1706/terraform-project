@@ -17,3 +17,12 @@ resource "aws_s3_bucket" "s3bucket5" {
         Environment = "Dev"
     }
 }
+resource "aws_s3_bucket" "s3bucket10" {
+    bucket = "awsterraform1706bucket"
+    acl = "private"
+
+    tags = {
+        Name = "bucketterra6"
+        Environment = "Dev"
+    }
+}
