@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "s3bucke1t" {
-    bucket = "awsterraform170602bucket"
+resource "aws_s3_bucket" "s3bucket1" {
+    bucket = "awsterraform170604bucket"
     acl = "private"
 
     tags = {
@@ -8,12 +8,12 @@ resource "aws_s3_bucket" "s3bucke1t" {
     }
 }
 
-resource "aws_s3_bucket" "s3bucke2t" {
-    bucket = "awsterraform170603bucket"
+resource "aws_s3_bucket" "s3bucket2" {
+    bucket = "awsterraform170605bucket"
     acl = "private"
 
     tags = {
-        Name = "bucket2terra"
+        Name = "bucketterra2"
         Environment = "Dev"
     }
 }
