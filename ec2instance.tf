@@ -2,7 +2,7 @@ resource "aws_instance" "example" {
   ami           = "ami-0c55b159cbfafe1f0" # Amazon Linux 2 AMI (us-east-1)
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.main.id
-  vpc_security_group_ids = [aws_security_group.ec2_sg.id]
+  vpc_security_group_ids = "allow ssh"
   key_name      = "your-key-pair" # Replace with your key pair name
 
   tags = {
