@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "s3bucket4" {
-    bucket = "awsterraform170604bucket"
+resource "aws_s3_bucket" "s3bucket12" {
+    bucket = "awsterraform170609bucket"
     acl = "private"
 
     tags = {
@@ -8,8 +8,8 @@ resource "aws_s3_bucket" "s3bucket4" {
     }
 }
 
-resource "aws_s3_bucket" "s3bucket5" {
-    bucket = "awsterraform170605bucket"
+resource "aws_s3_bucket" "s3bucket13" {
+    bucket = "awsterraform170610bucket"
     acl = "private"
 
     tags = {
